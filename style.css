@@ -188,3 +188,16 @@ color: #C7CCDB;
     height: 100%;
   }
 }
+
+@media (max-width: 420px){
+
+  .grid-1 {
+    padding-right: 30px;
+  }
+
+  .button1 {
+    margin-right: 0px;
+  }
+
+
+}
