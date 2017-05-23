@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'cinzel', serif;
+    height: 100vh;
+    margin: 0px;
+    background-color: #E1E5EE;
+}
+
+h1 {
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 70px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+.btn-icon {
+  width: 20px;
+  margin-right: 7px
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  color: #EFF0D1;
+}
+
+.arrow {
+  height: 70px;
+  width: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.threexthree {
+  float: left;
+  display: flex;
+  flex-wrap:wrap;
+  color: #2A324B;
+  width: 60%;
+  height: 600px;
+
+}
+
+form {
+  display: inline-flex;
+}
+
+button {
+color: #EFF0D1;
+/*padding: 10px 20px 10px 10px;*/
+border: solid #D1C6AD 2px;
+background-color: #767B91;
+margin-left: 0px;
+display: flex;
+width: 100px;
+height: 30px;
+line-height: 2;
+}
+
+.button1 {
+  margin-right: 30px;
+}
+
+.grid {
+  display: flex;
+  width: 33.3333%;
+  height: 33.33333%;
+  text-align: center;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.grid-1 {
+  color: #EFF0D1;
+  display: flex;
+  background-color: #3292DB;
+  width: 66.6666%;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-between;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.grid-2 {
+  background-color: #E1E5EE;
+  color: #2A324B;
+}
+
+.grid-3 {
+  background-color: #EFF0D1;
+
+}
+
+.grid-4 {
+  background-color: #767B91;
+color: #C7CCDB;
+}
+
+.grid-5 {
+  background-color: #EFF0D1;
+  color: #2A324B;
+
+}
+
+.grid-6 {
+  background-color: #3292DB;
+  color: #EFF0D1;
+
+}
+
+.grid-7 {
+  background-color: #EFF0D1;
+
+}
+
+.grid-8 {
+  background-color: #E1E5EE;
+
+}
+
+.grid-9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  width: 40%;
+  height: 100vh;
+  background-image: url(images/link-botw.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .threexthree {
+    width: 100%;
+    float:right;
+  }
+  .grid-9 {
+    width:100%;
+    height: 450px;
+    float: left;
+    background-image: url(images/link-landscape.jpg);
+  }
+  .container {
+    flex-direction: column;
+  }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+  html {
+    height: 100%;
+  }
+
+  .icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  body {
+    min-height: 100%;
+  }
+
+  .container {
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .threexthree {
+    height: 100%;
+  }
+
+  .grid-9 {
+    height: 100%;
+  }
+}
